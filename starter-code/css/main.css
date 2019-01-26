@@ -4,7 +4,134 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.fondoBlue{
+  border:3px solid rgb(122, 183, 224);
+  background-image: linear-gradient(to top, #06365f, #0c3d67, #12446f, #174c78, #1c5380);
+  width: 100%;
+  height: 300px;
+  opacity:0.8; 
+}
+
+
+.boxCentral{
+  position:relative;
+  border:5px solid rgb(201, 197, 144);
+  width: 100%;
+  height:650px;
+  top:-300px;
+  margin:auto;
+
+}
+.box1{
+    border:3px solid rgb(224, 151, 122);
+    width: 25%;    /*anchura de la caja*/
+    height: 560px;
+    margin-top: 80px;
+    margin-left:10%;
+    background-image: url("../images/phones.png");
+    background-size: 100% ;  /*altura imagen */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /*centras imagen*/
+    float:left;
+}
+
+.box2{
+  margin-top: 80px;
+  height: 560px;
+  margin-left: 30px;
+  /* padding-left: 5%; */
+  border:3px solid rgb(95, 129, 85);
+  width: 40%;
+  float: left;
+}
+
+.description{
+  border:3px solid rgb(151, 199, 218);
+  height:50%;
+ margin-top:5%;
+  padding-left: 5%;
+  background-image: url("../images/frame.png");
+  background-size: 100% ;  /*altura imagen */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /*centras imagen*/
+}
+
+.description h2{
+   border:3px solid rgb(151, 218, 157);
+  width: 55%;
+  color:#204464;
+}
+.encabezado{
+   border:3px solid rgb(27, 42, 184);
+   margin-top:35px;
+   height: 15%;
+   padding: 0; 
+}
+
+.logoInsta{
+  border:3px solid rgb(204, 203, 144);
+  height: 90%;
+  width: 260px;
+  background-image: url("../images/brand.png");
+  background-size: 100% ;  /*altura imagen */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /*centras imagen*/
+  float: left;
+}
+
+.home{
+   border:1px solid rgb(84, 104, 133);
+   border-radius: 3px;
+   float: right;
+   height: 35px;
+   width: 100px;
+   background-image: linear-gradient(to top, #1c5380, #30638f, #42739f, #5484af, #6595bf);
+   opacity: 0.4;
+   color:whitesmoke;
+   text-align: right;
+   font-size:13px;
+}
+
+.home p{
+  padding-top:10px;
+}
+
+.appStore{
+border:3px solid rgb(209, 156, 211);
+width: 150px;    /*anchura de la caja*/
+height: 60px;
+margin-top: 5%;
+margin-left: 20px;
+background-image: url("../images/badge-iphone.png");
+background-size: 100% ;  /*altura imagen */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-position: center; /*centras imagen*/
+float:left; 
+}
+
+.googlePlay{
+border:3px solid rgb(209, 156, 211);
+width: 150px;    /*anchura de la caja*/
+height: 60px;
+margin-top: 5%;
+margin-left: 20px;
+background-image: url("../images/badge-android.png");
+background-size: 100% ;  /*altura imagen */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-position: center; /*centras imagen*/
+float:left; 
+}
+
+.footer{
+  border:3px solid rgb(194, 152, 204);
+  width: 100%;
+  text-align: center;
+
 }
